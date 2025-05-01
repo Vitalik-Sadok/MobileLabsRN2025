@@ -1,0 +1,60 @@
+import { TaskType, Task } from '@/types/index'
+
+export const initialTasks: Task[] = [
+	{
+		id: 't1',
+		type: TaskType.CLICKS,
+		description: 'Зробити 10 кліків',
+		targetValue: 10,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't2',
+		type: TaskType.DOUBLE_CLICKS,
+		description: 'Зробити подвійний клік 5 разів',
+		targetValue: 5,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't3',
+		type: TaskType.LONG_PRESS_DURATION,
+		description: "Утримувати об'єкт 3 секунди",
+		targetValue: 1,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't4',
+		type: TaskType.PAN,
+		description: "Перетягнути об'єкт",
+		targetValue: 1,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't5',
+		type: TaskType.FLING_ANY,
+		description: 'Зробити свайп (будь-який)',
+		targetValue: 1,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't6',
+		type: TaskType.PINCH,
+		description: "Змінити розмір об'єкта",
+		targetValue: 1,
+		currentValue: 0,
+		isCompleted: false,
+	},
+	{
+		id: 't7',
+		type: TaskType.SCORE,
+		description: 'Отримати 100 очок',
+		targetValue: 100,
+		currentValue: 0,
+		isCompleted: false,
+	},
+]
